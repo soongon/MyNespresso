@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    android:orientation="vertical"
+    tools:context="com.mcjang.mynespresso.app.capsule.detail.fragments.DetailTitleFragment">
+
+    <ListView
+        android:id="@+id/lvCommentList"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

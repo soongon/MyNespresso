@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_capsule_list"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="캡슐" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_star_black_18dp"
+            android:title="커뮤니티" />
+    </group>
+
+    <item android:title="Nespresso" android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_visit_site"
+                android:icon="@drawable/ic_home_black_18dp"
+                android:title="네스프레소 사이트" />
+        </menu>
+    </item>
+
+    <item android:title="Account" android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="로그인" />
+        </menu>
+    </item>
+
+    <item android:title="Account" android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_app_info"
+                android:icon="@drawable/ic_info_outline_black_18dp"
+                android:title="앱 정보" />
+        </menu>
+    </item>
+
+</menu>

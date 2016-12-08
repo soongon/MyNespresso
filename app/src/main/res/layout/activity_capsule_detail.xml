@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_capsule_detail"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mcjang.mynespresso.app.capsule.CapsuleDetailActivity">
+
+    <LinearLayout
+        android:background="#55000000"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="left|top"
+            android:id="@+id/ivBigImage"
+            android:src="@drawable/big_raspberry"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvCapsuleName"
+                android:paddingTop="5dp"
+                android:text="Arpegio"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCapsuleNameEng"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Arpegio"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/llCupSizeLayout"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivCapsuleCupSize0"
+                    android:src="@drawable/cup_size_40"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/tvCapsuleCupSize0"
+                    android:text="40ml"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivCapsuleCupSize1"
+                    android:src="@drawable/cup_size_40"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/tvCapsuleCupSize1"
+                    android:text="40ml"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivCapsuleCupSize2"
+                    android:src="@drawable/cup_size_40"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/tvCapsuleCupSize2"
+                    android:text="40ml"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivCapsuleCupSize3"
+                    android:src="@drawable/cup_size_40"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/tvCapsuleCupSize3"
+                    android:text="40ml"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvIntensity"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvOrigin"
+                android:text="Origin : Swith"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvProfile"
+                android:text="애프리콧, 소프트 초콜릿, 균형감, 과일향"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:requiresFadingEdge="horizontal"
+        />
+
+
+</LinearLayout>
