@@ -204,7 +204,7 @@ public class CapsuleFragment extends Fragment {
                                 holder.ivCapsuleCupSize3.setVisibility(View.GONE);
                                 holder.tvCapsuleCupSize3.setVisibility(View.GONE);
                             } else if (i == 1) {
-                                holder.ivCapsuleCupSize1.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
+                                holder.ivCapsuleCupSize1.setImageDrawable(getResources().getDrawable(R.drawable.receip));
                                 holder.tvCapsuleCupSize1.setText(cupSize);
                                 holder.ivCapsuleCupSize1.setVisibility(View.VISIBLE);
                                 holder.tvCapsuleCupSize1.setVisibility(View.VISIBLE);
@@ -213,21 +213,21 @@ public class CapsuleFragment extends Fragment {
                                 holder.ivCapsuleCupSize3.setVisibility(View.GONE);
                                 holder.tvCapsuleCupSize3.setVisibility(View.GONE);
                             } else if (i == 2) {
-                                holder.ivCapsuleCupSize2.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
+                                holder.ivCapsuleCupSize2.setImageDrawable(getResources().getDrawable(R.drawable.receip));
                                 holder.tvCapsuleCupSize2.setText(cupSize);
                                 holder.ivCapsuleCupSize2.setVisibility(View.VISIBLE);
                                 holder.tvCapsuleCupSize2.setVisibility(View.VISIBLE);
                                 holder.ivCapsuleCupSize3.setVisibility(View.GONE);
                                 holder.tvCapsuleCupSize3.setVisibility(View.GONE);
                             } else if (i == 3) {
-                                holder.ivCapsuleCupSize3.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
+                                holder.ivCapsuleCupSize3.setImageDrawable(getResources().getDrawable(R.drawable.receip));
                                 holder.tvCapsuleCupSize3.setText(cupSize);
                                 holder.ivCapsuleCupSize3.setVisibility(View.VISIBLE);
                                 holder.tvCapsuleCupSize3.setVisibility(View.VISIBLE);
                             }
                         } else if (cupSize.startsWith("40")) {
                             if (i == 0) {
-                                holder.ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.receip));
+                                holder.ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
                                 holder.tvCapsuleCupSize0.setText(cupSize);
                                 holder.ivCapsuleCupSize0.setVisibility(View.VISIBLE);
                                 holder.tvCapsuleCupSize0.setVisibility(View.VISIBLE);
@@ -261,7 +261,7 @@ public class CapsuleFragment extends Fragment {
                             }
                         } else if (cupSize.startsWith("25")) {
                             if (i == 0) {
-                                holder.ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.receip));
+                                holder.ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_25));
                                 holder.tvCapsuleCupSize0.setText(cupSize);
                                 holder.ivCapsuleCupSize0.setVisibility(View.VISIBLE);
                                 holder.tvCapsuleCupSize0.setVisibility(View.VISIBLE);
@@ -295,7 +295,7 @@ public class CapsuleFragment extends Fragment {
                             }
                         } else if (cupSize.startsWith("110")) {
                             if (i == 0) {
-                                holder.ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.receip));
+                                holder.ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_110));
                                 holder.tvCapsuleCupSize0.setText(cupSize);
                                 holder.ivCapsuleCupSize0.setVisibility(View.VISIBLE);
                                 holder.tvCapsuleCupSize0.setVisibility(View.VISIBLE);

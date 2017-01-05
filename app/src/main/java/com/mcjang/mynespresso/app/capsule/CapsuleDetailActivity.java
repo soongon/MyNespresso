@@ -123,7 +123,7 @@ public class CapsuleDetailActivity extends AppCompatActivity implements Heartbea
                         ivCapsuleCupSize3.setVisibility(View.GONE);
                         tvCapsuleCupSize3.setVisibility(View.GONE);
                     } else if (i == 1) {
-                        ivCapsuleCupSize1.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
+                        ivCapsuleCupSize1.setImageDrawable(getResources().getDrawable(R.drawable.receip));
                         tvCapsuleCupSize1.setText(cupSize);
                         ivCapsuleCupSize1.setVisibility(View.VISIBLE);
                         tvCapsuleCupSize1.setVisibility(View.VISIBLE);
@@ -132,21 +132,21 @@ public class CapsuleDetailActivity extends AppCompatActivity implements Heartbea
                         ivCapsuleCupSize3.setVisibility(View.GONE);
                         tvCapsuleCupSize3.setVisibility(View.GONE);
                     } else if (i == 2) {
-                        ivCapsuleCupSize2.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
+                        ivCapsuleCupSize2.setImageDrawable(getResources().getDrawable(R.drawable.receip));
                         tvCapsuleCupSize2.setText(cupSize);
                         ivCapsuleCupSize2.setVisibility(View.VISIBLE);
                         tvCapsuleCupSize2.setVisibility(View.VISIBLE);
                         ivCapsuleCupSize3.setVisibility(View.GONE);
                         tvCapsuleCupSize3.setVisibility(View.GONE);
                     } else if (i == 3) {
-                        ivCapsuleCupSize3.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
+                        ivCapsuleCupSize3.setImageDrawable(getResources().getDrawable(R.drawable.receip));
                         tvCapsuleCupSize3.setText(cupSize);
                         ivCapsuleCupSize3.setVisibility(View.VISIBLE);
                         tvCapsuleCupSize3.setVisibility(View.VISIBLE);
                     }
                 } else if (cupSize.startsWith("40")) {
                     if (i == 0) {
-                        ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.receip));
+                        ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_40));
                         tvCapsuleCupSize0.setText(cupSize);
                         ivCapsuleCupSize0.setVisibility(View.VISIBLE);
                         tvCapsuleCupSize0.setVisibility(View.VISIBLE);
@@ -180,7 +180,7 @@ public class CapsuleDetailActivity extends AppCompatActivity implements Heartbea
                     }
                 } else if (cupSize.startsWith("25")) {
                     if (i == 0) {
-                        ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.receip));
+                        ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_25));
                         tvCapsuleCupSize0.setText(cupSize);
                         ivCapsuleCupSize0.setVisibility(View.VISIBLE);
                         tvCapsuleCupSize0.setVisibility(View.VISIBLE);
@@ -214,7 +214,7 @@ public class CapsuleDetailActivity extends AppCompatActivity implements Heartbea
                     }
                 } else if (cupSize.startsWith("110")) {
                     if (i == 0) {
-                        ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.receip));
+                        ivCapsuleCupSize0.setImageDrawable(getResources().getDrawable(R.drawable.cup_size_110));
                         tvCapsuleCupSize0.setText(cupSize);
                         ivCapsuleCupSize0.setVisibility(View.VISIBLE);
                         tvCapsuleCupSize0.setVisibility(View.VISIBLE);
