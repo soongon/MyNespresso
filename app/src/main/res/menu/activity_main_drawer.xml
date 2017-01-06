@@ -30,7 +30,7 @@
         </menu>
     </item>
 
-    <item android:title="Account" android:checkableBehavior="single">
+    <item android:title="App Info" android:checkableBehavior="single">
         <menu>
             <item
                 android:id="@+id/nav_app_info"
